@@ -10,3 +10,4 @@ exitAboutMe.addEventListener("click", e => {
     aboutMe.style = "display: none;"
 })
 
+// Write your JavaScript code.
