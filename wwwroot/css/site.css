@@ -7,7 +7,7 @@
 html, body {
   height: 100%;
   width: 100%;
-  }
+}
 
 #hero {
   position: relative;
@@ -174,4 +174,71 @@ html, body {
   height: 29vh;
   transition-duration: 0.5s;
   box-shadow: 0px 0px 20px 5px;
+}
+
+#project-popup {
+  background-color: blue;
+  z-index: 2;
+  height: 60vh;
+  width: 55vw;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+}
+#project-popup .project-popup-slideshow {
+  width: 40%;
+  height: 100%;
+  background-color: yellow;
+}
+#project-popup .project-popup-description {
+  width: 60%;
+  height: 100%;
+  background-color: #8383c9;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+#project-popup .project-popup-description h2 {
+  color: white;
+  font-size: 2rem;
+}
+#project-popup .project-popup-description p {
+  width: 70%;
+  color: white;
+}
+#project-popup .project-popup-description a {
+  border-radius: 0.25rem;
+  padding: 1rem 2rem;
+  border: solid white 3px;
+  text-decoration: none;
+  color: white;
+  font-size: 1.25rem;
+}
+#project-popup .project-popup-description a:hover {
+  opacity: 0.7;
+  cursor: pointer;
+  transition-duration: 0.2s;
+  padding: 1.25rem 2.25rem;
+}
+#project-popup .project-popup-description button {
+  position: absolute;
+  top: 5%;
+  left: 92%;
+  outline: none;
+  background-color: transparent;
+  border: white 1px solid;
+  border-radius: 50%;
+  padding: 0 1rem;
+  font-size: 2rem;
+  color: white;
+}
+#project-popup .project-popup-description button:hover {
+  opacity: 0.7;
+}
+
+#project-popup.active {
+  display: flex;
 }
