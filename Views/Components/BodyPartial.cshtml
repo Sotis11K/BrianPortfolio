@@ -1,14 +1,12 @@
-﻿@model List<BrianPortfolio.Models.ProjectPopup>
-
-
-<section id="body">
+﻿<section id="body">
     @foreach (var project in Model)
     {
         <div class="project-item"
              data-id="@project.Id"
              data-title="@project.Title"
              data-description="@project.Description"
-             data-link="@project.Link">
+             data-link="@project.Link"
+             data-images='@Html.Raw(JsonSerializer.Serialize(project.Images))'>
 
             <img src="@project.Image" alt="@project.Title">
             <span>@project.Title</span>

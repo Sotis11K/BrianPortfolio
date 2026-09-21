@@ -11,5 +11,6 @@ namespace BrianPortfolio.Models
         public string Link { get; set; } = string.Empty;
 
         public string Image { get; set; } = string.Empty;
+        public List<string> Images { get; set; } = new();
     }
 }
