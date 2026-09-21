@@ -18,7 +18,13 @@ namespace BrianPortfolio.Controllers
                     Title = "Portfolio Website",
                     Description = "My portfolio website built with ASP.NET Core MVC.",
                     Link = "https://github.com/",
-                    Image = "images/goofy-brian.png"
+                    Image = "images/goofy-brian.png",
+                    Images = new List<string>
+                    {
+                        "images/hero-background.png",
+                        "images/lego-vader.png",
+                        "images/spiderman.png"
+                    }
                 },
 
                 new ProjectPopup
@@ -27,7 +33,13 @@ namespace BrianPortfolio.Controllers
                     Title = "Movie Application",
                     Description = "A movie application built with C# and an API.",
                     Link = "https://github.com/",
-                    Image = "images/goofy-brian.png"
+                    Image = "images/goofy-brian.png",
+                    Images = new List<string>
+                    {
+                        "images/hero-background.png",
+                        "images/lego-vader.png",
+                        "images/spiderman.png"
+                    }
                 },
 
                 new ProjectPopup
@@ -36,7 +48,13 @@ namespace BrianPortfolio.Controllers
                     Title = "Another Project",
                     Description = "A description for another project.",
                     Link = "https://github.com/",
-                    Image = "images/goofy-brian.png"
+                    Image = "images/goofy-brian.png",
+                    Images = new List<string>
+                    {
+                        "images/hero-background.png",
+                        "images/lego-vader.png",
+                        "images/spiderman.png"
+                    }
                 },
                 new ProjectPopup
                 {
@@ -44,7 +62,13 @@ namespace BrianPortfolio.Controllers
                     Title = "Testing",
                     Description = "this is my own testing thing",
                     Link = "https://youtube.com",
-                    Image = "images/goofy-brian.png"
+                    Image = "images/goofy-brian.png",
+                    Images = new List<string>
+                    {
+                        "images/hero-background.png",
+                        "images/lego-vader.png",
+                        "images/spiderman.png"
+                    }
 
                 }
             };
